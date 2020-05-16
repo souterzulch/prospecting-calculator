@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: serif;
+}
+
+body {
+    background-color: #222;
+    color: #CCC;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#description {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.common {
+    color: white;
+}
+
+.uncommon {
+    color: #1eff00;
+}
+
+.rare {
+    color: #0070FF;
+}
+
+.epic {
+    color: #A335EE;
+}
+
+fieldset {
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    border: 5px dotted white;
+    border-radius: 30px;
+}
+
+fieldset > legend {
+    padding: 3px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+fieldset > input {
+    float: right;
+}
+
+#result-wrapper {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+#result-title {
+    text-align: center;
+}
+
+#pyrite-result, #elementium-result {
+    float: right;
+}
+
+.p-result {
+    width: 80%;
+    margin: 0px;
+    margin: auto;
+    padding: 0px;
+}

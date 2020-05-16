@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="prospect.css">
+    <title>Prospect Value Calculator</title>
+    <script src="prospect.js"></script>
+  </head>
+  <body>
+    <p id="description">Use period as the decimal separator. For example, a price of 1 gold and 40 silver is 1.4 or 1.40, <em>not</em> 1,4 or 1,40.</p>
+    <fieldset>
+      <legend>Prospect Value Calculator</legend>
+      <label for="volatile-earth-price">Gold price for one <span class="common">[Volatile Earth]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="jasper-price">Gold price for one <span class="uncommon">[Jasper]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="nightstone-price">Gold price for one <span class="uncommon">[Nightstone]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="hessonite-price">Gold price for one <span class="uncommon">[Hessonite]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="alicite-price">Gold price for one <span class="uncommon">[Alicite]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="zephyrite-price">Gold price for one <span class="uncommon">[Zephyrite]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="carnelian-price">Gold price for one <span class="uncommon">[Carnelian]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="amberjewel-price">Gold price for one <span class="rare">[Amberjewel]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="ocean-sapphire-price">Gold price for one <span class="rare">[Ocean Sapphire]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="ember-topaz-price">Gold price for one <span class="rare">[Ember Topaz]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="inferno-ruby-price">Gold price for one <span class="rare">[Inferno Ruby]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="demonseye-price">Gold price for one <span class="rare">[Demonseye]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="dream-emerald-price">Gold price for one <span class="rare">[Dream Emerald]</span>:</label>
+      <input type="number" min"0">
+      <div id="result-wrapper">
+	<p id="result-title">Prospect value for a stack of 20 ores:</p>
+	<p class="p-result"><span class="uncommon">[Pyrite Ore]</span>: <span id="pyrite-result">0 gold</span></p>
+	<br>
+	<p class="p-result"><span class="common">[Elementium Ore]</span>: <span id="elementium-result">0 gold</span></p>
+      </div>
+    </fieldset>
+  </body>
+</html>
