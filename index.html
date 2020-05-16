@@ -1,87 +1,47 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-<html lang="en">
+<html>
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Ramu Souterzulch</title>
-  <meta name="description" content="Ramu Souterzulch's Resume">
-
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" >
-</head>
-
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="prospect.css">
+    <title>Prospect Value Calculator</title>
+    <script src="prospect.js"></script>
+  </head>
   <body>
-      <div id="particles-js">
-  <div class="header">
-      <h1>
-        <span class="site-title">Ramu Souterzulch</span>
-        <span class="site-description">Armchair Expert</span>
-      </h1>
-      <div class="header-icons">
-        <a aria-label="Send email" href="mailto:souterzulch@protonmail.com"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Github" target="_blank" href="https://github.com/souterzulch"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+    <p id="description">Use period as the decimal separator. For example, a price of 1 gold and 40 silver is 1.4 or 1.40, <em>not</em> 1,4 or 1,40.</p>
+    <fieldset>
+      <legend>Prospect Value Calculator</legend>
+      <label for="volatile-earth-price">Gold price for one <span class="common">[Volatile Earth]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="jasper-price">Gold price for one <span class="uncommon">[Jasper]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="nightstone-price">Gold price for one <span class="uncommon">[Nightstone]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="hessonite-price">Gold price for one <span class="uncommon">[Hessonite]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="alicite-price">Gold price for one <span class="uncommon">[Alicite]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="zephyrite-price">Gold price for one <span class="uncommon">[Zephyrite]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="carnelian-price">Gold price for one <span class="uncommon">[Carnelian]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="amberjewel-price">Gold price for one <span class="rare">[Amberjewel]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="ocean-sapphire-price">Gold price for one <span class="rare">[Ocean Sapphire]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="ember-topaz-price">Gold price for one <span class="rare">[Ember Topaz]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="inferno-ruby-price">Gold price for one <span class="rare">[Inferno Ruby]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="demonseye-price">Gold price for one <span class="rare">[Demonseye]</span>:</label>
+      <input type="number" min="0"><br><br>
+      <label for="dream-emerald-price">Gold price for one <span class="rare">[Dream Emerald]</span>:</label>
+      <input type="number" min"0">
+      <div id="result-wrapper">
+	<p id="result-title">Prospect value for a stack of 20 ores:</p>
+	<p class="p-result"><span class="uncommon">[Pyrite Ore]</span>: <span id="pyrite-result">0 gold</span></p>
+	<br>
+	<p class="p-result"><span class="common">[Elementium Ore]</span>: <span id="elementium-result">0 gold</span></p>
       </div>
-      <div class="header-links">
-        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
-      </div>
-  </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-</div>
-
-      <section id="about">
-        <div class="user-details">
-  <h1>My Expertise</h1>
-  <p>As an armchair expert in politics, medicine, nutrition, economics, and much more, I am always searching for the next controversy; no conspiracy is too strong to expose! Lately I've moved on from conversations regarding religion, global warming, economics and general politics, and instead immersed myself into Twitter debates with vegans and other plant-positive morons. For optimal health and longevity, see my list of healthy foods <a href="https://cdn.pixabay.com/photo/2016/11/10/16/29/beef-1814638__340.png" target="_black">here</a>.</p>
-</div>
-<div class="user">
-  <div class="tech">
-    <h2>Politics</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/1200px-Hammer_and_sickle_red_on_transparent.svg.png" height="64px" width="64px"/>
-    <img src="https://lh3.googleusercontent.com/proxy/z-5UCvqwphNmzrIfnzTBEaHRVq_sFDVSXQfynnfzoZeuQnkbhwk531shke4HC8BkpOIvvrov6SP847iqMSgwhYYKjTEX8n2rywM9rdqaOIiAxWkyI_7vGasJpyVBoZbilL6WmwxzTQ" height="64px" width="64px" />
-    <img src="https://www.pngjoy.com/pngl/329/6170790_deus-vult-holy-cross-crusader-logo-hd-png.png" width="64px" height="64px" />
-    <p>I feel comfortable criticizing and discrediting any politician and belief ranging from anarchy to communism. Current projects include ending women's suffrage, reinstating the unjustly dethroned clan of Holstein-Gottorp, and planning a final and successful siege of Constantinople.</p>
-  </div>
-  <div class="tech">
-    <h2>Medicine</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/American_Heart_Association_Logo.svg/1200px-American_Heart_Association_Logo.svg.png" height="64px" width="100px" />
-    <img src="https://logos-download.com/wp-content/uploads/2016/11/American_Diabetes_Association_logo_logotype.png" height="56px" width="128px" />
-    <p>With my extensive sofa-research, I can comfortably and accurately discredit any so-called medical expert who dares to say something wrong. In addition, my dietary and nutritional advice ameliorates any and all diseases including but not limited to autoimmunity, cancer, and dementia.</p>
-  </div>
-  <div class="tech">
-    <h2>Economics</h2>
-    <img src="https://i.imgur.com/na6Nfo3.png" width="64px" height="64px" />
-    
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Great_coat_of_arms_of_Rothschild_family.svg/1200px-Great_coat_of_arms_of_Rothschild_family.svg.png" height="64px" width="64px" />
-
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_gm3ZbScVpGVASKXmjQzliuPtjYONHXigKosJQGsR3LgeNmnT" width="64px" height="64px" />
-    <p>After a deep reevaluation of the mechanics of money and psychology of the masses upon having my old classical liberal economic beliefs disproven, I now fully master all aspects of micro and macro economics and their interplay with politics. Economists tremble in my presence.</p>
-  </div>
-</div>
-
-      </section>
-        
-      <footer class="footer">
-    <!-- <p>&copy; Ramu Souterzulch</p> -->
-    <p>Conquer the world with facts and <span class="love">❤</span> with <a href="https://github.com/souterzulch">Ramu Souterzulch</a></p>
-</footer>
-<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="/assets/js/sweet-scroll.min.js"></script>
-<script src="/assets/js/main.js"></script>
-<!-- Google Analytics -->
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', '', 'auto');
-ga('send', 'pageview');
-</script>
-
-
-
+    </fieldset>
   </body>
 </html>
